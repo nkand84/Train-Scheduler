@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.jumbotron, .panel-heading{
+    background-color: #ff7300!important;
+    color: #fff !important;
+    
+}
+button{
+    background-color: #ff7300 !important;
+    color: #fff !important;
+    font-weight:600 !important;
+}
+img{
+    width:250px;
+    height:200px;
+    margin-left:40px;
+ 
+}
+#heading{
+    font-weight:800;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding:40px;
+}
