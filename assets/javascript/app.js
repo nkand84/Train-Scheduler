@@ -1,7 +1,11 @@
 $(document).ready(function () {
-    setInterval(function () {
-        window.location.reload();
-    }, 60000); //refresh page every 1min
+    // setInterval(function () {
+    //     window.location.reload();
+    // }, 60000); //refresh page every 1min
+    setTimeout(function(){
+        $(".table").load("https://nkand84.github.io/Train-Scheduler/ .table");
+     }, 2000); //refresh every 2 seconds
+
     // Initialize Firebase
     var config = {
         apiKey: "AIzaSyDitwYbZKuU6ushRbnJhvGQwLet0zTPGsk",
