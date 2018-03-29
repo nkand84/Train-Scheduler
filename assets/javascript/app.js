@@ -2,7 +2,8 @@ $(document).ready(function () {
     // refresh web page every 1 min 
     setInterval(function () {
         window.location.reload();
-    }, 60000); 
+    }, 60000);
+    
     // Initialize Firebase
     var config = {
         apiKey: "AIzaSyDitwYbZKuU6ushRbnJhvGQwLet0zTPGsk",

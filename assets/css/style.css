@@ -6,6 +6,9 @@
     color: #fff !important;
     
 }
+h1{
+    float:left;
+}
 button{
     background-color: #ff7300 !important;
     color: #fff !important;
@@ -14,12 +17,11 @@ button{
 img{
     width:250px;
     height:200px;
-    margin-left:40px;
- 
-}
+ }
 #heading{
     font-weight:800;
     font-size: 40px;
     text-transform: uppercase;
     
 }
+
